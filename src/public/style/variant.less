@@ -1,0 +1,90 @@
+//变量
+//基本红
+@base-red: #d31616;
+//基本灰
+@base-lighter: #434343;
+//字号
+@font-size: 14px;
+//黑色字体
+@font-color-dark: #000;
+//灰色字体
+@font-color-lighter: #666;
+//白色字体
+@font-color-white: #fff;
+//表格边框色
+@table-border-color: #ccc;
+//无需填写的表格的背景色
+//@table-background-color: #eceefd;
+@table-background-color: #f7f7f9;
+
+//复用样式
+//清除浮动
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
+//防止子元素margin-top|bottom越界
+.margin-top {
+  content: "";
+  display: table;
+}
+
+.margin-bottom {
+  content: "";
+  display: table;
+}
+//边框
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+//外框
+.box{
+  width: 970px;
+  background-color: #fff;
+  padding:0 15px;
+  margin:0 auto auto;
+  &:before{
+    .margin-top;
+  }
+  &:after{
+    .margin-top ;
+    .clear-float
+  }
+}
+//通用样式
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
+  color: @font-color-dark;
+  font-size: @font-size;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol, ul, li {
+  list-style-type: none;
+}
+
+ul, li, p, h1, h2, h3, h4, h5, h6, input[type="radio"], input[type="checkbox"], label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}

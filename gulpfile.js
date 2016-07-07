@@ -1,4 +1,4 @@
-/**
+ /**
  *creat by dingtianxiu 16/07/06
  */
 var gulp = require('gulp'),
@@ -12,7 +12,7 @@ gulp.task('uglify',function () {
     return gulp.src('src/**/*.js')
         .pipe(uglify())
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('src/build/js'))
+        .pipe(gulp.dest('build/js'))
         .pipe(connect.reload())
 });
 //定义html任务
@@ -23,14 +23,12 @@ gulp.task('html', function () {
 });
 //less
 gulp.task('less',function(){
-    return gulp.src('src/**/*.scss')
+    return gulp.src('src/**/*.less')
         .pipe(less())
-        // .pipe(concatCss('all.css'))
-        .pipe(gulp.dest('src/build/css'))
+        .pipe(concatCss('all.css'))
+        .pipe(gulp.dest('build/css'))
         .pipe(connect.reload());
 })
-
-
 //浏览器自动刷新
 gulp.task('connect', function () {
     connect.server({
@@ -39,8 +37,9 @@ gulp.task('connect', function () {
 });
 //定义看守任务
 gulp.task('watch', function () {
-    gulp.watch('src/*.html', ['html']);
-    gulp.watch('src/*.js',['uglify']);
+    gulp.watch('src/**/*.html', ['html']);
+    gulp.watch('src/**/*.js',['uglify']);
+    gulp.watch('src/**/*.less',['less']);
 });
 //自动编译文件
 

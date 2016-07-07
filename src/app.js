@@ -3,7 +3,7 @@
  * Created by dtx on 16/7/6.
  */
 
-angular.module("app",[])
-    .controller("ctrl",function () {
-       console.log("papapa");
-    });
+angular.module("wlgf",["app.public"])
+    .controller("wlgfController",function () {
+        console.log("papapa");
+    })

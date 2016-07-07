@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en" ng-app="wlgf">
 <head>
     <meta charset="UTF-8">
     <title>物料工坊</title>
+    <link type="text/css" rel="stylesheet" href="../build/css/all.css">
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 </head>
-<body>
-    <div ng-controller="ctrl">1111112222233333</div>
-    <script src="app.js"></script>
+<body ng-controller="wlgfController">
+    <div ui-view="head"></div>
+    <div ui-view="center"></div>
+    <div ui-view="foot"></div>
+    <script src="../build/js/all.js"></script>
 </body>
 </html>

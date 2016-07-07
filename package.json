@@ -9,10 +9,16 @@
   "dependencies": {
     "angular": "^1.5.7",
     "angular-ui-router": "^0.3.1"
+//    "webpage": "^0.3.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0"
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-uglify": "^1.5.4"
+//    "webpage": "^0.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

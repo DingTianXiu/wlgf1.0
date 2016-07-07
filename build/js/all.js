@@ -1,0 +1,5 @@
+angular.module("wlgf",["app.public"]).controller("wlgfController",function(){console.log("papapa")});
+angular.module("app.public",["ui.router","app.public.login"]).config(["$stateProvider","$urlRouterProvider",function(l,e){e.when("","/login"),l.state("login",{url:"/login",views:{center:{templateUrl:"./public/auth/login/login.html",controller:"loginCtrl"},head:{templateUrl:"./public/head.html"},foot:{templateUrl:"./public/foot.html"}}}).state("home",{url:"/home",views:{center:{templateUrl:"./public/center_home.html"},head:{templateUrl:"./public/head.html"},foot:{templateUrl:""}}})}]);
+
+angular.module("app.public.login",["app.public.login.controller"]);
+angular.module("app.public.login.controller",[]).controller("loginCtrl",["$scope",function(e){var n=document.body.clientHeight;document.getElementsByClassName("login")[0].style.height=n-80+"px",window.onresize=function(){n=document.body.clientHeight,document.getElementsByClassName("login")[0].style.height=n-80+"px"}}]);
