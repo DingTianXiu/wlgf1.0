@@ -1,0 +1,22 @@
+{
+  "name": "wlgf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dingtianxiu",
+  "license": "ISC"
+}
