@@ -6,4 +6,4 @@
 angular.module("wlgf",["app.public"])
     .controller("wlgfController",function () {
         console.log("papapa");
-    })
+    });
