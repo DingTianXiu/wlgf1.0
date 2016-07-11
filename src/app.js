@@ -13,5 +13,5 @@ angular.module("app",[
     "app.library"
 ])
     .controller("appController",["menuData",function (menuData) {
-        // console.log(menuData);
+        
     }]);

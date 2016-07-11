@@ -12,10 +12,15 @@ angular.module("app.library",[
         $stateProvider
             .state('library', {
                 url: '/library',
+                abstrack: true,
                 views: {
                     'center': {
                         templateUrl: './dataManagement/list.html',
                         controller: 'libraryCtrl'
+                    },
+                    'content@library': {
+                        templateUrl: './library/projectManagement/views/projectManagement.html',
+                        controller: 'projectManagementCtrl'
                     },
                     'head': {
                         templateUrl: './public/head.html'

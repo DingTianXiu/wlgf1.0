@@ -9,13 +9,11 @@ angular.module("app.directive.menu",[])
         return{
             restrict: 'A',
             template:
-                '<div>'+
                     '<ul>'+
                         '<li>{{data.name}}</li>'+
                         '<li ng-repeat="d in data.children" ui-sref="{{d.sref}}">{{d.name}}</li>'+
-                    '</ul>'+
-                '</div>',
-            replace: true,
+                    '</ul>',
+            // replace: true,
             scope:{
                 data: '='
             }

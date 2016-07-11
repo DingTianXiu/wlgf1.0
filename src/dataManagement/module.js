@@ -14,6 +14,7 @@ angular.module("app.dataManagement",[
         $stateProvider
             .state('dataManagement', {
                 url: '/dataManagement',
+                abstract: true,
                 views: {
                     'center': {
                         templateUrl: './dataManagement/list.html',
@@ -31,4 +32,5 @@ angular.module("app.dataManagement",[
                     }
                 }
             })
+        
     }]);
