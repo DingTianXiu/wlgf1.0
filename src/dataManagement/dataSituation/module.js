@@ -2,22 +2,22 @@
  * Created by dtx on 16/7/11.
  */
 
-angular.module("app.ysjgl.sjgk",[])
+angular.module("app.dataManagement.dataSituation",[])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('ysjgl.sjgk', {
-                url: '/sjgk',
+            .state('dataManagement.dataSituation', {
+                url: '/dataSituation',
                 views: {
                     'center@': {
-                        templateUrl: './ysjgl/list.html'
+                        templateUrl: './dataManagement/list.html'
                     },
-                    'content@ysjgl.sjgk': {
-                        templateUrl: './ysjgl/sjgk/sjgk.html'
+                    'content@dataManagement.dataSituation': {
+                        templateUrl: './dataManagement/dataSituation/dataSituation.html'
                     },
                     'head': {
                         templateUrl: './public/head.html'
                     },
-                    'foot@ysjgl.sjgk': {
+                    'foot@dataManagement.dataSituation': {
                         templateUrl: ''
                     }
                 }

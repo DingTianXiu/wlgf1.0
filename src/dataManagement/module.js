@@ -3,20 +3,20 @@
  * description:元数据管理
  */
 
-angular.module("app.ysjgl",["app.ysjgl.sjgk","app.ysjgl.controller"])
+angular.module("app.dataManagement",["app.dataManagement.dataSituation","app.dataManagement.controller"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('ysjgl', {
-                url: '/ysjgl',
+            .state('dataManagement', {
+                url: '/dataManagement',
                 views: {
                     'center': {
-                        templateUrl: './ysjgl/list.html',
-                        controller: 'ysjglCtrl'
+                        templateUrl: './dataManagement/list.html',
+                        controller: 'dataManagementCtrl'
                     },
                     'head': {
                         templateUrl: './public/head.html'
                     },
-                    'foot@ysjgl': {
+                    'foot@dataManagement': {
                         templateUrl: ''
                     }
                 }

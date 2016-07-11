@@ -4,12 +4,12 @@
  * description: 项目应用,仅作模块引入
  */
 
-angular.module("wlgf",[
+angular.module("app",[
     "ui.router",
     "app.config",
     "app.directive",
     "app.public",
-    "app.ysjgl"
+    "app.dataManagement"
 ])
     .controller("appController",["menuData",function (menuData) {
         // console.log(menuData);
