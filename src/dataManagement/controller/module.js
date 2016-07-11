@@ -4,5 +4,7 @@
  */
 angular.module("app.dataManagement.controller",[])
     .controller("dataManagementCtrl",["menuData","$scope",function (menuData,$scope) {
+
+        /*配置侧边导航栏*/
         $scope.menuData = menuData.dataManagement;
     }]);

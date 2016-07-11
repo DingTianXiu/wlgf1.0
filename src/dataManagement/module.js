@@ -3,7 +3,13 @@
  * description:元数据管理
  */
 
-angular.module("app.dataManagement",["app.dataManagement.dataSituation","app.dataManagement.controller"])
+angular.module("app.dataManagement",[
+    "app.dataManagement.dataSituation",
+    "app.dataManagement.controller",
+    "app.dataManagement.myData",
+    "app.dataManagement.search",
+    "app.dataManagement.categoryConfig"
+])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('dataManagement', {
@@ -15,6 +21,10 @@ angular.module("app.dataManagement",["app.dataManagement.dataSituation","app.dat
                     },
                     'head': {
                         templateUrl: './public/head.html'
+                    },
+                    'content@dataManagement': {
+                        templateUrl: './dataManagement/dataSituation/dataSituation.html',
+                        controller: 'dataSituationCtrl'
                     },
                     'foot@dataManagement': {
                         templateUrl: ''

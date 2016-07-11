@@ -6,7 +6,7 @@ var config = angular.module('app.config',[]);
 config.constant('menuData', {
     dataManagement:{
         state: '', icon: '', name: '元数据管理', children: [
-            {sref: 'dataManagement.sjgk', name: '数据概况'},
+            {sref: 'dataManagement.dataSituation', name: '数据概况'},
             {sref: 'dataManagement.myData', name: '我的元数据'},
             {sref: 'dataManagement.search', name: '全局索引'},
             {sref: 'dataManagement.categoryConfig', name: '类目配置'},

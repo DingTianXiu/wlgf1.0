@@ -4,7 +4,7 @@
  */
 
 angular.module("app.dataManagement.dataSituation.controller",[])
-    .controller("dataSituationCtrl",["menuData",function (menuData) {
-        console.log(menuData.dataManagement,"1111");
-        
+    .controller("dataSituationCtrl",[function () {
+
+
     }]);

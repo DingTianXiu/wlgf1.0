@@ -2,24 +2,24 @@
  * Created by dtx on 16/7/11.
  */
 
-angular.module("app.dataManagement.dataSituation",["app.dataManagement.dataSituation.controller"])
+angular.module("app.library.projectClassification",["app.library.projectClassification.controller"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('dataManagement.dataSituation', {
-                url: '/dataSituation',
+            .state('library.projectClassification', {
+                url: '/projectClassification',
                 views: {
                     'center@': {
                         templateUrl: './dataManagement/list.html',
-                        controller: 'dataManagementCtrl'
+                        controller: 'libraryCtrl'
                     },
-                    'content@dataManagement.dataSituation': {
-                        templateUrl: './dataManagement/dataSituation/dataSituation.html',
-                        controller: 'dataSituationCtrl'
+                    'content@library.projectClassification': {
+                        templateUrl: './library/projectClassification/views/projectClassification.html',
+                        controller: 'projectClassificationCtrl'
                     },
                     'head': {
                         templateUrl: './public/head.html'
                     },
-                    'foot@dataManagement.dataSituation': {
+                    'foot@library.projectClassification': {
                         templateUrl: ''
                     }
                 }
