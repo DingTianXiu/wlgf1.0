@@ -3,14 +3,15 @@
  * description:元数据管理
  */
 
-angular.module("app.ysjgl",["ui.router","app.ysjgl.sjgk"])
+angular.module("app.ysjgl",["app.ysjgl.sjgk","app.ysjgl.controller"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('ysjgl', {
                 url: '/ysjgl',
                 views: {
                     'center': {
-                      templateUrl: './ysjgl/list.html'
+                        templateUrl: './ysjgl/list.html',
+                        controller: 'ysjglCtrl'
                     },
                     'head': {
                         templateUrl: './public/head.html'

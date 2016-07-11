@@ -5,9 +5,12 @@
  */
 
 angular.module("wlgf",[
+    "ui.router",
+    "app.config",
+    "app.directive",
     "app.public",
     "app.ysjgl"
 ])
-    .controller("wlgfController",function () {
-        console.log("papapa");
-    });
+    .controller("appController",["menuData",function (menuData) {
+        // console.log(menuData);
+    }]);

@@ -6,18 +6,18 @@ var config = angular.module('app.config',[]);
 config.constant('menuData', {
     ysjgl:{
         state: '', icon: '', name: 'ysjgl', children: [
-            {sref: 'app.ysjgl.sjgk', name: '数据概况'},
-            {sref: 'app.ysjgl.wdysj', name: '我的元数据'},
-            {sref: 'app.ysjgl.qjsy', name: '全局索引'},
-            {sref: 'app.ysjgl.lmpz', name: '类目配置'},
+            {sref: 'ysjgl.sjgk', name: '数据概况'},
+            {sref: 'ysjgl.wdysj', name: '我的元数据'},
+            {sref: 'ysjgl.qjsy', name: '全局索引'},
+            {sref: 'ysjgl.lmpz', name: '类目配置'},
         ]
     },
     bqgl:{},
     kshzj:{},
     zsk:{
         state: '', icon: '', name: 'ysjgl', children: [
-            {sref: 'app.bqgl.xmgl', name: '项目管理'},
-            {sref: 'app.bqgl.xmhylm', name: '项目行业类目'}
+            {sref: 'bqgl.xmgl', name: '项目管理'},
+            {sref: 'bqgl.xmhylm', name: '项目行业类目'}
         ]
     }
 });

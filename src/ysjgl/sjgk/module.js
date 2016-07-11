@@ -2,7 +2,7 @@
  * Created by dtx on 16/7/11.
  */
 
-angular.module("app.ysjgl.sjgk",["ui.router"])
+angular.module("app.ysjgl.sjgk",[])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('ysjgl.sjgk', {

@@ -5,19 +5,19 @@
 
 
 angular.module("app.directive.menu",[])
-    .directive("menu",[function (menuData) {
+    .directive("menu",[function () {
         return{
             restrict: 'A',
             template:
                 '<div>'+
                     '<ul>'+
-                        '<li>我的元数据</li>'+
-                        '<li ng-repeat="d in data" ui-sref="d.children.sref">{{d.children.name}}</li>'+
+                        '<li>元数据管理</li>'+
+                        '<li ng-repeat="d in data.children" ui-sref="{{d.sref}}">{{d.name}}</li>'+
                     '</ul>'+
                 '</div>',
             replace: true,
             scope:{
-                data: '=menuData'
+                data: '='
             }
         }
     }]);

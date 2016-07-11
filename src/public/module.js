@@ -1,7 +1,7 @@
 /**
  * Created by dtx on 16/7/7.
  */
-angular.module("app.public",["ui.router","app.public.login"])
+angular.module("app.public",["app.public.login"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.when('', '/login');
         $stateProvider
