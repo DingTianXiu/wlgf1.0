@@ -11,7 +11,7 @@ angular.module("app.directive.menu",[])
             template:
                 '<div>'+
                     '<ul>'+
-                        '<li>元数据管理</li>'+
+                        '<li>{{data.name}}</li>'+
                         '<li ng-repeat="d in data.children" ui-sref="{{d.sref}}">{{d.name}}</li>'+
                     '</ul>'+
                 '</div>',

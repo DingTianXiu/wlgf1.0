@@ -9,7 +9,8 @@ angular.module("app",[
     "app.config",
     "app.directive",
     "app.public",
-    "app.dataManagement"
+    "app.dataManagement",
+    "app.library"
 ])
     .controller("appController",["menuData",function (menuData) {
         // console.log(menuData);

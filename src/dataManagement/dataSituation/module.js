@@ -12,7 +12,8 @@ angular.module("app.dataManagement.dataSituation",[])
                         templateUrl: './dataManagement/list.html'
                     },
                     'content@dataManagement.dataSituation': {
-                        templateUrl: './dataManagement/dataSituation/dataSituation.html'
+                        templateUrl: './dataManagement/dataSituation/dataSituation.html',
+                        controller: 'dataSituationCtrl'
                     },
                     'head': {
                         templateUrl: './public/head.html'

@@ -5,5 +5,4 @@
 angular.module("app.dataManagement.controller",[])
     .controller("dataManagementCtrl",["menuData","$scope",function (menuData,$scope) {
         $scope.menuData = menuData.dataManagement;
-        console.log($scope.menuData);
     }]);
