@@ -14,5 +14,10 @@ config.constant('menuData', {
     },
     bqgl:{},
     kshzj:{},
-    zsk:{}
+    zsk:{
+        state: '', icon: '', name: 'ysjgl', children: [
+            {sref: 'app.bqgl.xmgl', name: '项目管理'},
+            {sref: 'app.bqgl.xmhylm', name: '项目行业类目'}
+        ]
+    }
 });
