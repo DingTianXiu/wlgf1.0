@@ -1,1 +1,14 @@
-我的元数据
+<div class="myData">
+    <div class="title">
+        <span>我的元数据</span>
+        <button>+导入元数据</button>
+    </div>
+    <div class="content">
+        <ul class="tab">
+            <li ng-click="selectEnabled()" ng-class="{selected:enabled}"><a>可用</a></li>
+            <li ng-click="selectCollection()" ng-class="{selected:collection}"><a>收藏</a></li>
+            <li ng-click="selectManagement()" ng-class="{selected:management}"><a>管理</a></li>
+        </ul>
+        <div></div>
+    </div>
+</div>

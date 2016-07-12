@@ -1,0 +1,49 @@
+@import "../../../public/style/variant.less";
+
+.myData{
+  float: left;
+  .title{
+    height: 30px;
+    padding: 15px 10px;
+    border-bottom: 1px solid black;
+    span{
+      margin-left: 10px;
+      line-height: 30px;
+    }
+    button{
+      float: right;
+      width: 100px;
+      height: 30px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+  }
+  .content{
+    padding: 10px;
+    .tab{
+      height: 35px;
+      border-bottom: 1px solid black;
+    }
+    li{
+      width: 100px;
+      height: 35px;
+      //border: 1px solid black;
+      border-bottom: none;
+      display: inline-block;
+      float: left;
+      text-align: center;
+      line-height: 35px;
+    }
+    li:first-child{
+      margin-left: 10px;
+    }
+    .selected{
+      border: 1px solid black;
+      border-bottom: none;
+
+    }
+  }
+}

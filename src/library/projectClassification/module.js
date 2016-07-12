@@ -15,12 +15,6 @@ angular.module("app.library.projectClassification",["app.library.projectClassifi
                     'content@library.projectClassification': {
                         templateUrl: './library/projectClassification/views/projectClassification.html',
                         controller: 'projectClassificationCtrl'
-                    },
-                    'head': {
-                        templateUrl: './public/head.html'
-                    },
-                    'foot@library.projectClassification': {
-                        templateUrl: ''
                     }
                 }
             })

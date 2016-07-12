@@ -15,12 +15,6 @@ angular.module("app.library.projectManagement",["app.library.projectManagement.c
                     'content@library.projectManagement': {
                         templateUrl: './library/projectManagement/views/projectManagement.html',
                         controller: 'projectManagementCtrl'
-                    },
-                    'head': {
-                        templateUrl: './public/head.html'
-                    },
-                    'foot@library.projectManagement': {
-                        templateUrl: ''
                     }
                 }
             })

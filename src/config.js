@@ -12,12 +12,20 @@ config.constant('menuData', {
             {sref: 'dataManagement.categoryConfig', name: '类目配置'},
         ]
     },
-    bqgl:{},
-    kshzj:{},
+    tabManagement:{},
+    visualizing:{},
     library:{
         state: '', icon: '', name: '知识库', children: [
             {sref: 'library.projectManagement', name: '项目管理'},
             {sref: 'library.projectClassification', name: '项目行业类目'}
         ]
+    },
+    tabData:{
+      arrData:[
+          {name:'元数据管理',sref:'dataManagement.dataSituation'},
+          {name:'标签管理',sref:'tabManagement'},
+          {name:'可视化组件',sref:'visualizing'},
+          {name:'知识库',sref:'library.projectManagement'}
+      ]
     }
 });

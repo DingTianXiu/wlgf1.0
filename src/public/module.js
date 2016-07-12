@@ -1,7 +1,7 @@
 /**
  * Created by dtx on 16/7/7.
  */
-angular.module("app.public",["app.public.login"])
+angular.module("app.public",["app.public.login","app.public.headController"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.when('', '/login');
         $stateProvider
@@ -13,7 +13,8 @@ angular.module("app.public",["app.public.login"])
                         controller: 'loginCtrl'
                     },
                     'head': {
-                        templateUrl: './public/head.html'
+                        templateUrl: './public/head.html',
+                        controller: 'headCtrl'
                     },
                     'foot': {
                         templateUrl: './public/foot.html'

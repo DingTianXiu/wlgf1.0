@@ -98,6 +98,8 @@ label {
 .menu ul li:first-child {
   height: 60px;
   line-height: 60px;
+  color: #666;
+  padding-left: 15px;
 }
 
 .menu ul li {
@@ -456,6 +458,10 @@ label {
 .headTab ul li:last-child {
   border-right: 1px solid black;
 }
+
+.headTab ul .selected {
+  background-color: #cccccc;
+}
 .clear-float {
   content: "";
   display: table;
@@ -543,6 +549,266 @@ label {
   padding: 0;
   margin: 0;
   font-weight: normal;
+}
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.margin-top {
+  content: "";
+  display: table;
+}
+
+.margin-bottom {
+  content: "";
+  display: table;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.box {
+  width: 970px;
+  background-color: #fff;
+  padding: 0 15px;
+  margin: 0 auto auto;
+}
+
+.box:before {
+  content: "";
+  display: table;
+}
+
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="radio"],
+input[type="checkbox"],
+label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.dataSituation {
+  float: left;
+  width: 100%;
+}
+
+.dataSituation .data {
+  width: 100%;
+  height: 80px;
+}
+
+.dataSituation .data li {
+  display: inline-block;
+  width: 47%;
+  height: 60px;
+  border: 1px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 1% 0 0 2%;
+  text-align: center;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.dataSituation .relation p {
+  height: 60px;
+  line-height: 80px;
+  margin-left: 2%;
+}
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.margin-top {
+  content: "";
+  display: table;
+}
+
+.margin-bottom {
+  content: "";
+  display: table;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.box {
+  width: 970px;
+  background-color: #fff;
+  padding: 0 15px;
+  margin: 0 auto auto;
+}
+
+.box:before {
+  content: "";
+  display: table;
+}
+
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="radio"],
+input[type="checkbox"],
+label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.myData {
+  float: left;
+}
+
+.myData .title {
+  height: 30px;
+  padding: 15px 10px;
+  border-bottom: 1px solid black;
+}
+
+.myData .title span {
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+.myData .title button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.myData .content {
+  padding: 10px;
+}
+
+.myData .content .tab {
+  height: 35px;
+  border-bottom: 1px solid black;
+}
+
+.myData .content li {
+  width: 100px;
+  height: 35px;
+  border-bottom: none;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+}
+
+.myData .content li:first-child {
+  margin-left: 10px;
+}
+
+.myData .content .selected {
+  border: 1px solid black;
+  border-bottom: none;
 }
 .clear-float {
   content: "";

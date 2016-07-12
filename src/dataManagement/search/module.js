@@ -15,12 +15,6 @@ angular.module("app.dataManagement.search",["app.dataManagement.search.controlle
                     'content@dataManagement.search': {
                         templateUrl: './dataManagement/search/views/search.html',
                         controller: 'searchCtrl'
-                    },
-                    'head': {
-                        templateUrl: './public/head.html'
-                    },
-                    'foot@dataManagement.search': {
-                        templateUrl: ''
                     }
                 }
             })

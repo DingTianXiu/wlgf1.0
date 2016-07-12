@@ -15,12 +15,6 @@ angular.module("app.dataManagement.categoryConfig",["app.dataManagement.category
                     'content@dataManagement.categoryConfig': {
                         templateUrl: './dataManagement/categoryConfig/views/categoryConfig.html',
                         controller: 'categoryConfigCtrl'
-                    },
-                    'head': {
-                        templateUrl: './public/head.html'
-                    },
-                    'foot@dataManagement.categoryConfig': {
-                        templateUrl: ''
                     }
                 }
             })
