@@ -810,6 +810,7 @@ label {
   border: 1px solid black;
   border-bottom: none;
 }
+
 .clear-float {
   content: "";
   display: table;

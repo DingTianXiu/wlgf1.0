@@ -6,12 +6,13 @@
 
 angular.module("app",[
     "ui.router",
+    "app.testData",
     "app.config",
     "app.directive",
     "app.public",
     "app.dataManagement",
     "app.library"
 ])
-    .controller("appController",["menuData",function (menuData) {
+    .controller("appController",["USER","TESTDATA",function (USER,TESTDATA) {
         
     }]);

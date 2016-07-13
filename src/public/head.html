@@ -6,8 +6,9 @@
         <li>营销策划</li>
     </ul>
     <ul class="headRight">
-        <li>x</li>
-        <li>登录</li>
+        <li ng-if="isLogin" ng-click="out()">x</li>
+        <li ng-if="!isLogin">登录</li>
+        <li ng-if="isLogin">{{USER.userName}}</li>
     </ul>
 </div>
 <div class="headTab">
