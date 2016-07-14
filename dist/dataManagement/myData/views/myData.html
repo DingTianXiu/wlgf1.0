@@ -9,6 +9,11 @@
             <li ng-click="selectCollection()" ng-class="{selected:collection}"><a>收藏</a></li>
             <li ng-click="selectManagement()" ng-class="{selected:management}"><a>管理</a></li>
         </ul>
-        <div></div>
+        <div list-form
+             title-list="titleList"
+             list-data="dataList"
+             list-item="listItem"
+             act-list="actList">
+        </div>
     </div>
 </div>

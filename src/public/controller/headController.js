@@ -4,20 +4,18 @@
 
 angular.module("app.public.headController",[])
     .controller("headCtrl",["$scope","menuData","$state","$location",function ($scope,menuData,$state,$location) {
+
+        /*一级目录路由跳转,状态改变*/
         $scope.tabData = menuData.tabData.arrData;
+        $scope.index = null;
         $scope.selectTab = function (index) {
-            $state.go($scope.tabData[index].sref)
-                .then(function (result) {
-                    $scope.index = index;
-                    console.log($scope.index);
-                    console.log(result);
-                })
-            // if($scope.tabData[index].sref==$location.$$path.name)
+            $scope.index = index;
+            $state.go($scope.tabData[index].sref);
         }
 
         /*test退出登录*/
         $scope.out = function () {
             $state.go('login');
-
         }
+        
     }]);

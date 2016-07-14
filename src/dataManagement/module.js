@@ -20,11 +20,6 @@ angular.module("app.dataManagement",[
                         templateUrl: './dataManagement/list.html',
                         controller: 'dataManagementCtrl'
                     },
-                    'head': {
-                        templateUrl: './public/head.html',
-                        controller: 'headCtrl'
-
-                    },
                     'content@dataManagement': {
                         templateUrl: './dataManagement/dataSituation/dataSituation.html',
                         controller: 'dataSituationCtrl'

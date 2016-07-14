@@ -22,10 +22,6 @@ angular.module("app.library",[
                         templateUrl: './library/projectManagement/views/projectManagement.html',
                         controller: 'projectManagementCtrl'
                     },
-                    'head': {
-                        templateUrl: './public/head.html',
-                        controller: 'headCtrl'
-                    },
                     'foot@library': {
                         templateUrl: ''
                     }

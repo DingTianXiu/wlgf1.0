@@ -3,14 +3,14 @@
         <p>WLGF</p>
         <p>物料工坊</p>
     </div>
-    <div class="loginForm">
+    <form class="loginForm" novalidate>
         <ul>
             <li>登录</li>
-            <li><input ng-model="auth.userName" name="userName" type="text" placeholder="账号"></li>
+            <li><input ng-model="auth.userName" name="userName" type="text" placeholder="账号" ng-minlength="4"></li>
             <li><input ng-model="auth.password" name="passWord" type="password" placeholder="密码"></li>
             <li><input name="auth" type="text" placeholder="验证码"></li>
             <li><button ng-click="goLogin()">登录</button></li>
             <li><a href="javascropt:void(0)">忘记密码?</a></li>
         </ul>
-    </div>
+    </form>
 </div>

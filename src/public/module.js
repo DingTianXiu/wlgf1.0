@@ -12,10 +12,6 @@ angular.module("app.public",["app.public.login","app.public.headController"])
                         templateUrl: './public/auth/login/login.html',
                         controller: 'loginCtrl'
                     },
-                    'head': {
-                        templateUrl: './public/head.html',
-                        controller: 'headCtrl'
-                    },
                     'foot': {
                         templateUrl: './public/foot.html'
                     }
@@ -27,11 +23,7 @@ angular.module("app.public",["app.public.login","app.public.headController"])
                     'center': {
                         templateUrl: './public/center_home.html'
                     },
-                    'head': {
-                        templateUrl: './public/head.html',
-                        controller: 'headCtrl'
-                    },
-                    'foot': {
+                    'foot@home': {
                         templateUrl: ''
                     }
                 }

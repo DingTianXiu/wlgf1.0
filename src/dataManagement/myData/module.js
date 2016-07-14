@@ -2,7 +2,10 @@
  * Created by dtx on 16/7/11.
  */
 
-angular.module("app.dataManagement.myData",["app.dataManagement.myData.controller"])
+angular.module("app.dataManagement.myData",[
+    "app.dataManagement.myData.controller",
+    "app.dataManagement.myData.dataDetail"
+])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('dataManagement.myData', {

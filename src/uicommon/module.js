@@ -4,5 +4,6 @@
  */
 
 angular.module("app.directive",[
-    "app.directive.menu"
+    "app.directive.menu",
+    "app.directive.lsitForm"
 ]);

@@ -108,6 +108,10 @@ label {
   line-height: 35px;
   padding-left: 25px;
 }
+
+.menu .select {
+  background-color: #f7f7f9;
+}
 .clear-float {
   content: "";
   display: table;
@@ -792,7 +796,7 @@ label {
   border-bottom: 1px solid black;
 }
 
-.myData .content li {
+.myData .content .tab li {
   width: 100px;
   height: 35px;
   border-bottom: none;
@@ -802,13 +806,90 @@ label {
   line-height: 35px;
 }
 
-.myData .content li:first-child {
+.myData .content .tab li:first-child {
   margin-left: 10px;
 }
 
-.myData .content .selected {
+.myData .content .tab .selected {
   border: 1px solid black;
   border-bottom: none;
+}
+
+.myData .content .listForm {
+  overflow: auto;
+  width: 100%;
+}
+
+.myData .content .listForm table {
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.myData .content .listForm table thead {
+  border: 1px solid black;
+}
+
+.myData .content .listForm table thead th {
+  height: 35px;
+  background-color: #f7f7f9;
+  overflow: hidden;
+}
+
+.myData .content .listForm table thead th span {
+  display: inline-block;
+  width: 100%;
+  border-left: 1px solid black;
+}
+
+.myData .content .listForm table thead th:first-child span {
+  border-left: none;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.myData .content .listForm table thead th:last-child {
+  text-align: left;
+}
+
+.myData .content .listForm table thead th:last-child span {
+  padding-left: 50px;
+}
+
+.myData .content .listForm table td:first-child {
+  width: 200px;
+  min-width: 200px;
+  text-align: left;
+}
+
+.myData .content .listForm table td:first-child span {
+  margin-left: 10px;
+}
+
+.myData .content .listForm table td {
+  width: 150px;
+  min-width: 150px;
+  height: 35px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.myData .content .listForm table td span {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid;
+  padding-left: 10px;
+}
+
+.myData .content .listForm table td:last-child {
+  width: auto;
+}
+
+.myData .content .listForm table td:last-child span {
+  margin-right: 20px;
 }
 
 .clear-float {

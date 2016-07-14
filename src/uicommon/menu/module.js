@@ -7,15 +7,16 @@
 angular.module("app.directive.menu",[])
     .directive("menu",[function () {
         return{
-            restrict: 'A',
+            restrict: 'AE',
             template:
                     '<ul>'+
                         '<li>{{data.name}}</li>'+
-                        '<li ng-repeat="d in data.children" ui-sref="{{d.sref}}">{{d.name}}</li>'+
+                        '<li ng-repeat="d in data.children" ui-sref="{{d.sref}}" ng-class="{select:sref==d.sref}">{{d.name}}</li>'+
                     '</ul>',
             // replace: true,
             scope:{
-                data: '='
+                data: '=',
+                sref: '='
             }
         }
     }]);
