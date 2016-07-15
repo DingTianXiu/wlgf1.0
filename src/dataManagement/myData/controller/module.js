@@ -43,9 +43,9 @@ angular.module("app.dataManagement.myData.controller",[])
         /*数据列表*/
         $scope.editChannel = function (item) {
             $state.go("dataManagement.myData.dataDetail");
+            $scope.item = item;
         };
         $scope.dataList = TESTDATA;
-        console.log($scope.listData);
         $scope.titleList =["表名","创建时间","物理储存","生命周期","操作"];
         $scope.listItem = [
             {code:'name',filter:'self'},

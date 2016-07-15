@@ -11,7 +11,7 @@ angular.module("app.public.login.controller",[])
         window.onresize = function () {
             height = document.body.clientHeight;
             document.getElementsByClassName("login")[0].style.height = (height-80)+"px";
-        }
+        };
 
         /*test用户认证*/
         $rootScope.isLogin =false;

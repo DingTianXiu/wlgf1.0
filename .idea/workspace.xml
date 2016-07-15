@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd8785f9-469f-4c67-9df5-25b0bd7070ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uicommon/listForm/module.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/public/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/uicommon/form/module.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/all.css" afterPath="$PROJECT_DIR$/build/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/all.js" afterPath="$PROJECT_DIR$/build/js/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/dataManagement/list.html" afterPath="$PROJECT_DIR$/dist/dataManagement/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/dataManagement/myData/dataDetail/views/dataDetail.html" afterPath="$PROJECT_DIR$/dist/dataManagement/myData/dataDetail/views/dataDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/dataManagement/myData/views/myData.html" afterPath="$PROJECT_DIR$/dist/dataManagement/myData/views/myData.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/public/auth/login/login.html" afterPath="$PROJECT_DIR$/dist/public/auth/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/controller/module.js" afterPath="$PROJECT_DIR$/src/dataManagement/controller/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js" afterPath="$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/list.html" afterPath="$PROJECT_DIR$/src/dataManagement/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/module.js" afterPath="$PROJECT_DIR$/src/dataManagement/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/controller/module.js" afterPath="$PROJECT_DIR$/src/dataManagement/myData/controller/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js" afterPath="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html" afterPath="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/module.js" afterPath="$PROJECT_DIR$/src/dataManagement/myData/module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/sytle/myData.less" afterPath="$PROJECT_DIR$/src/dataManagement/myData/sytle/myData.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/myData/views/myData.html" afterPath="$PROJECT_DIR$/src/dataManagement/myData/views/myData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataManagement/style/list.less" afterPath="$PROJECT_DIR$/src/dataManagement/style/list.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/library/controller/module.js" afterPath="$PROJECT_DIR$/src/library/controller/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/library/module.js" afterPath="$PROJECT_DIR$/src/library/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/auth/login/controller/loginController.js" afterPath="$PROJECT_DIR$/src/public/auth/login/controller/loginController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/auth/login/login.html" afterPath="$PROJECT_DIR$/src/public/auth/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/controller/headController.js" afterPath="$PROJECT_DIR$/src/public/controller/headController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/module.js" afterPath="$PROJECT_DIR$/src/public/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uicommon/menu/module.js" afterPath="$PROJECT_DIR$/src/uicommon/menu/module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uicommon/module.js" afterPath="$PROJECT_DIR$/src/uicommon/module.js" />
     </list>
     <ignored path="wlgf1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,34 +40,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/public/auth/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataManagement/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uicommon/listForm/module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="407">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#ul#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#2;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#3;n#form#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/controller/headController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="9" selection-start-line="15" selection-start-column="7" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#37#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataManagement/style/list.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,57 +90,8 @@
         <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataManagement/controller/module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#62#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myData.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/sytle/myData.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#36#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uicommon/menu/module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="59" />
-              <folding>
-                <marker date="1468462338000" expanded="true" signature="202:433" placeholder="..." />
-                <marker date="1468462338000" expanded="true" signature="202:439" placeholder="..." />
-                <marker date="1468462338000" expanded="true" signature="202:440" placeholder="..." />
-                <marker date="1468462338000" expanded="true" signature="280:433" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ysjgl/controller/module.js" />
         <option value="$PROJECT_DIR$/src/ysjgl/list.html" />
         <option value="$PROJECT_DIR$/src/ysjgl/module.js" />
         <option value="$PROJECT_DIR$/src/library/list.html" />
@@ -179,38 +131,39 @@
         <option value="$PROJECT_DIR$/src/public/controller/controller.js" />
         <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/src/public/style/head.less" />
-        <option value="$PROJECT_DIR$/src/dataManagement/dataSituation/module.js" />
-        <option value="$PROJECT_DIR$/src/dataManagement/categoryConfig/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/search/module.js" />
         <option value="$PROJECT_DIR$/src/library/projectClassification/module.js" />
         <option value="$PROJECT_DIR$/src/library/projectManagement/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/search/style/search.less" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/views/dataDetail.html" />
-        <option value="$PROJECT_DIR$/src/public/auth/login/controller/loginController.js" />
         <option value="$PROJECT_DIR$/src/data.js" />
         <option value="$PROJECT_DIR$/src/public/head.html" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/public/auth/login/login.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/public/module.js" />
-        <option value="$PROJECT_DIR$/src/dataManagement/module.js" />
-        <option value="$PROJECT_DIR$/src/library/module.js" />
-        <option value="$PROJECT_DIR$/src/public/controller/headController.js" />
-        <option value="$PROJECT_DIR$/src/dataManagement/list.html" />
-        <option value="$PROJECT_DIR$/src/library/controller/module.js" />
-        <option value="$PROJECT_DIR$/src/uicommon/menu/module.js" />
         <option value="$PROJECT_DIR$/src/uicommon/form/module.js" />
         <option value="$PROJECT_DIR$/src/uicommon/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/style/list.less" />
-        <option value="$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js" />
         <option value="$PROJECT_DIR$/src/uicommon/listForm/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/views/myData.html" />
-        <option value="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/sytle/myData.less" />
+        <option value="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js" />
+        <option value="$PROJECT_DIR$/src/dataManagement/myData/dataDetail/controller/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/myData/controller/module.js" />
+        <option value="$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js" />
+        <option value="$PROJECT_DIR$/src/dataManagement/dataSituation/module.js" />
+        <option value="$PROJECT_DIR$/src/dataManagement/categoryConfig/module.js" />
+        <option value="$PROJECT_DIR$/src/dataManagement/list.html" />
+        <option value="$PROJECT_DIR$/src/dataManagement/module.js" />
+        <option value="$PROJECT_DIR$/src/library/module.js" />
+        <option value="$PROJECT_DIR$/src/uicommon/menu/module.js" />
         <option value="$PROJECT_DIR$/src/dataManagement/controller/module.js" />
+        <option value="$PROJECT_DIR$/src/library/controller/module.js" />
+        <option value="$PROJECT_DIR$/src/public/auth/login/controller/loginController.js" />
+        <option value="$PROJECT_DIR$/src/public/controller/headController.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/public/auth/login/login.html" />
       </list>
     </option>
   </component>
@@ -280,130 +233,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uicommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uicommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wlgf1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,12 +391,12 @@
       <workItem from="1467956150920" duration="806000" />
       <workItem from="1467957641958" duration="20535000" />
       <workItem from="1468217329907" duration="8825000" />
-      <workItem from="1468226468969" duration="60479000" />
+      <workItem from="1468226468969" duration="73169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116994000" />
+    <option name="totallyTimeSpent" value="129684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -629,7 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/uicommon/menu/menu.html" />
     <entry file="file://$PROJECT_DIR$/src/public/controller/center_homeController.js" />
     <entry file="file://$PROJECT_DIR$/src/library/list.html" />
     <entry file="file://$PROJECT_DIR$/src/dataManagement/search/controller/module.js">
@@ -778,16 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/categoryConfig/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/public/auth/login/module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -840,60 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/auth/login/controller/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/auth/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/controller/headController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/style/list.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -906,55 +674,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/dataSituation/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/controller/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/views/myData.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,21 +692,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uicommon/listForm/module.js">
+    <entry file="file://$PROJECT_DIR$/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="397">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#36#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,61 +710,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html">
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/controller/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/controller/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="114">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataManagement/controller/module.js">
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
-            <element signature="e#0#62#0" expanded="false" />
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uicommon/listForm/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/style/list.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/controller/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/dataSituation/controller/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/dataSituation/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/myData/dataDetail/views/dataDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/categoryConfig/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/controller/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uicommon/menu/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="169">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <marker date="1468462338000" expanded="true" signature="202:433" placeholder="..." />
-            <marker date="1468462338000" expanded="true" signature="202:439" placeholder="..." />
-            <marker date="1468462338000" expanded="true" signature="202:440" placeholder="..." />
-            <marker date="1468462338000" expanded="true" signature="280:433" placeholder="..." />
+            <marker date="1468561723000" expanded="true" signature="202:455" placeholder="..." />
+            <marker date="1468561723000" expanded="true" signature="202:461" placeholder="..." />
+            <marker date="1468561723000" expanded="true" signature="202:462" placeholder="..." />
+            <marker date="1468561723000" expanded="true" signature="280:455" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/controller/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/auth/login/controller/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataManagement/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/controller/headController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="9" selection-start-line="15" selection-start-column="7" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="27">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.js">
+    <entry file="file://$PROJECT_DIR$/src/public/auth/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="407">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding>
-            <element signature="e#0#36#0" expanded="false" />
+            <element signature="n#style#0;n#ul#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#3;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

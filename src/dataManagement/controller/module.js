@@ -3,7 +3,7 @@
  * description: 左侧菜单栏控制器
  */
 angular.module("app.dataManagement.controller",[])
-    .controller("dataManagementCtrl",["menuData","$scope","$state",function (menuData,$scope,$state) {
+    .controller("dataManagementCtrl",["menuData","$scope","$state","$stateParams",function (menuData,$scope,$state,$stateParams) {
 
         /*配置侧边导航栏*/
         $scope.menuData = menuData.dataManagement;
@@ -14,7 +14,13 @@ angular.module("app.dataManagement.controller",[])
         var height = document.body.clientHeight;
         document.getElementsByClassName("menu")[0].style.height = (height-86)+"px";
 
-        /*配置侧边栏选中状态*/
+
+            
         $scope.sref = $state.current.name;
-        console.log($state);
+        if($stateParams.args){
+                $scope.index = $stateParams.args.index;
+                $scope.isSelected = $stateParams.args.isSelected;
+        }else{
+                $scope.sref = $state.current.name;
+        }
     }]);

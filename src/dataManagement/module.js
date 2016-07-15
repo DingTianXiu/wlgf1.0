@@ -27,7 +27,10 @@ angular.module("app.dataManagement",[
                     'foot@dataManagement': {
                         templateUrl: ''
                     }
-                }
+                },
+                params:{args:{
+
+                }}
             })
         
     }]);

@@ -25,7 +25,8 @@ angular.module("app.library",[
                     'foot@library': {
                         templateUrl: ''
                     }
-                }
+                },
+                params:{args:{}}
             })
     }]);
 

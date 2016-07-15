@@ -2,7 +2,7 @@
  * Created by dtx on 16/7/13.
  */
 
-angular.module("app.dataManagement.myData.dataDetail",[])
+angular.module("app.dataManagement.myData.dataDetail",["app.dataManagement.myData.dataDetail.controller"])
     .config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('dataManagement.myData.dataDetail', {
@@ -14,7 +14,7 @@ angular.module("app.dataManagement.myData.dataDetail",[])
                     },
                     'content@dataManagement.myData.dataDetail': {
                         templateUrl: './dataManagement/myData/dataDetail/views/dataDetail.html',
-                        // controller: 'myDataCtrl'
+                        controller: 'dataDetailCtrl'
                     }
                 }
             })

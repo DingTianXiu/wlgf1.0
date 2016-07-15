@@ -15,5 +15,4 @@ angular.module("app.dataManagement.dataSituation.controller",[])
             height = document.body.clientHeight;
             document.getElementsByClassName("menu")[0].style.height = (height-86)+"px";
         }
-
     }]);

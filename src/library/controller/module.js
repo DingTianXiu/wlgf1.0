@@ -3,7 +3,7 @@
  */
 
 angular.module("app.library.controller",[])
-    .controller("libraryCtrl",["menuData","$scope","$state",function (menuData,$scope,$state) {
+    .controller("libraryCtrl",["menuData","$scope","$state","$stateParams",function (menuData,$scope,$state,$stateParams) {
         
         /*配置侧边导航栏*/
         $scope.menuData = menuData.library;
@@ -19,5 +19,13 @@ angular.module("app.library.controller",[])
             document.getElementsByClassName("menu")[0].style.height = (height-86)+"px";
         }
 
+
+        $scope.sref = $state.current.name;
+        if($stateParams.args){
+            $scope.index = $stateParams.args.index;
+            $scope.isSelected = $stateParams.args.isSelected;
+        }else{
+            $scope.sref = $state.current.name;
+        }
 
     }]);

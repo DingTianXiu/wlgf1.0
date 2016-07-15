@@ -12,5 +12,26 @@
             <li><button ng-click="goLogin()">登录</button></li>
             <li><a href="javascropt:void(0)">忘记密码?</a></li>
         </ul>
+        <ul style="display: none">
+            <li>重置密码</li>
+            <li><input ng-model="auth.userName" name="userName" type="text" placeholder="账号" ng-minlength="4"></li>
+            <li><input ng-model="auth.phone" name="phone" type="text" placeholder="绑定的手机号"></li>
+            <li><input name="auth" type="text" placeholder="验证码"></li>
+            <li><button>下一步</button></li>
+        </ul>
+        <ul style="display: none">
+            <li>重置密码</li>
+            <li>验证码已发送至:</li>
+            <li ng-bind="auth.phone"></li>
+            <li><input name="auth" type="text" placeholder="验证码"></li>
+            <li><button>下一步</button></li>
+        </ul>
+        <ul style="display: none">
+            <li>重置密码</li>
+            <li><input ng-model="auth.password1" name="password" type="password" placeholder="设置新密码" ng-minlength="4"></li>
+            <li><input ng-model="auth.password2" name="password" type="password" placeholder="再次确认新密码"></li>
+            <li><button>重置</button></li>
+            <li>说明<br>1、密码长度需要8-16位，且同时包含大小写字母；</li>
+        </ul>
     </form>
 </div>
