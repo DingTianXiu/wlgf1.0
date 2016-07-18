@@ -23,7 +23,8 @@
                 <li ng-if="isLogin">{{USER.userName}}</li>
             </ul>
         </div>
-        <div class="headTab"  ng-if="isLogin">
+        <div class="headTab">
+        <!--<div class="headTab"  ng-if="isLogin">-->
             <span ui-sref="home">WLGF</span>
             <ul>
                 <li ng-repeat="d in tabData" ng-class="{selected:index==$index}" ng-click="selectTab($index)">{{d.name}}</li>

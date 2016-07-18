@@ -13,19 +13,42 @@ angular.module("app.public.login.controller",[])
             document.getElementsByClassName("login")[0].style.height = (height-80)+"px";
         };
 
+        /*表单验证*/
+        $scope.select = false;
+        $scope.formClick = function () {
+            $scope.select = true;
+        };
+
         /*test用户认证*/
         $rootScope.isLogin =false;
         $rootScope.USER = USER;
         $scope.goLogin = function () {
-            if($scope.auth){
-                if($scope.auth.userName==USER.userName&&$scope.auth.password==USER.passWord){
-                    $state.go('home');
-                    $rootScope.isLogin = true;
+                if($scope.loginForm.$valid && $scope.loginForm.$dirty){
+                    if($scope.auth.userName==USER.userName&&$scope.auth.password==USER.passWord){
+                        $state.go('home');
+                        $rootScope.isLogin = true;
+                        console.dir($scope.loginForm.$valid);
+                    }else{
+                        alert("请输入正确用户名及密码");
+                    }
                 }else{
-                    alert("请输入正确用户名及密码");
+                    alert("请输入用户名及密码");
                 }
-            }else{
-                alert("请输入用户名及密码");
+            };
+
+
+        /*忘记密码*/
+        $scope.resetPasswordBtn = function () {
+            $scope.resetPassword = true;
+        };
+        $scope.getCodeBtn = function () {
+            if($scope.resetPsswordForm.$valid && $scope.resetPsswordForm.$dirty) {
+                $scope.getCode = true;
             }
-        }
+        };
+        $scope.resetBtn = function () {
+            if($scope.getCodeForm.$valid && $scope.getCodeForm.$dirty) {
+                $scope.reset = true;
+            }
+        };
     }]);

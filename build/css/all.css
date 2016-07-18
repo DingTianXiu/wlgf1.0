@@ -1033,3 +1033,15 @@ label {
 .login .loginForm ul li a {
   float: right;
 }
+
+.login .loginForm ul .border {
+  border: 1px solid red;
+}
+
+.login .loginForm .hidden {
+  display: none;
+}
+
+.login .loginForm .show {
+  display: block;
+}
