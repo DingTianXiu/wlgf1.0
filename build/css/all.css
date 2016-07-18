@@ -96,8 +96,8 @@ label {
 }
 
 .menu ul li:first-child {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   color: #666;
   padding-left: 15px;
 }
@@ -1044,4 +1044,163 @@ label {
 
 .login .loginForm .show {
   display: block;
+}
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.margin-top {
+  content: "";
+  display: table;
+}
+
+.margin-bottom {
+  content: "";
+  display: table;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.box {
+  width: 970px;
+  background-color: #fff;
+  padding: 0 15px;
+  margin: 0 auto auto;
+}
+
+.box:before {
+  content: "";
+  display: table;
+}
+
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="radio"],
+input[type="checkbox"],
+label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.dataDetail .dataDetailHead {
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.dataDetail .dataDetailHead .formName {
+  float: left;
+  line-height: 50px;
+}
+
+.dataDetail .dataDetailHead .formName button {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  background-color: #f7f7f9;
+}
+
+.dataDetail .dataDetailHead .operate {
+  float: right;
+  line-height: 50px;
+}
+
+.dataDetail .dataDetailHead .operate button {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  background-color: #f7f7f9;
+}
+
+.dataDetail .dataDetailHead .operate button:last-child {
+  width: 80px;
+}
+
+.dataDetail .leftDiv {
+  float: left;
+  width: 300px;
+  margin: 20px;
+}
+
+.dataDetail .leftDiv .title {
+  border-bottom: 1px solid;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.dataDetail .leftDiv .title span {
+  line-height: 30px;
+}
+
+.dataDetail .leftDiv .title button {
+  float: right;
+  width: 35px;
+  height: 15px;
+  margin-top: 8px;
+}
+
+.dataDetail .leftDiv .detail li {
+  margin-bottom: 10px;
+}
+
+.dataDetail .leftDiv .detail li span:first-child {
+  background-color: #f7f7f9;
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
 }
