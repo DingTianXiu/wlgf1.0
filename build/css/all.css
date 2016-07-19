@@ -1036,7 +1036,71 @@ label {
 }
 
 .search .searchResult .item ul li:first-child {
-  background-color: #f7f7f9;
+  background-color: #cccccc;
+}
+.projectManagement {
+  float: left;
+}
+
+.projectManagement .title {
+  height: 50px;
+  border-bottom: 1px solid;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.projectManagement .project {
+  padding: 0 20px;
+}
+
+.projectManagement .project .item {
+  height: 80px;
+  padding-top: 20px;
+}
+
+.projectManagement .project .item div {
+  height: 40px;
+}
+
+.projectManagement .project .item div p {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  float: left;
+}
+
+.projectManagement .project .item div ul {
+  float: right;
+}
+
+.projectManagement .project .item div ul li {
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.projectManagement .project .item div ul li:first-child {
+  padding-right: 20px;
+  background-color: #cccccc;
+}
+
+.projectManagement .project .item ul {
+  float: left;
+}
+
+.projectManagement .project .item ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.projectManagement .project .item ul li span {
+  display: inline-block;
+  padding: 0 20px 0 10px;
+  margin-right: 10px;
+  background-color: #cccccc;
+}
+
+.projectManagement .project .item ul li:first-child {
+  margin: 0;
 }
 .clear-float {
   content: "";
