@@ -1,0 +1,53 @@
+@import "../../../public/style/variant.less";
+
+.search{
+  float: left;
+  .searchForm{
+    border-bottom: 1px solid;
+    width: auto;
+    ul{
+      li{
+        display: inline-block;
+        height: 50px;
+        select{
+          display: inline-block;
+          width: 100px;
+          height: 100%;
+          option{
+            font-size: 30px;
+          }
+        }
+      }
+      li{
+
+      }
+    }
+  }
+  .searchResult{
+    padding: 0 20px;
+    .item{
+      height: 80px;
+      border-bottom: 1px solid;
+      p{
+        height: 40px;
+        line-height: 40px;
+      }
+      p:first-child{
+        font-size: 20px;
+      }
+      p:last-child{
+        float: right;
+      }
+      ul{
+        margin-top: 10px;
+        float: left;
+        li{
+          display: inline-block;
+        }
+        li:first-child{
+          background-color: #f7f7f9;
+        }
+      }
+    }
+  }
+}

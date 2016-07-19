@@ -767,7 +767,7 @@ label {
 
 .myData .title {
   height: 30px;
-  padding: 15px 10px;
+  padding: 10px 10px;
   border-bottom: 1px solid black;
 }
 
@@ -891,7 +891,153 @@ label {
 .myData .content .listForm table td:last-child span {
   margin-right: 20px;
 }
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.margin-top {
+  content: "";
+  display: table;
+}
+
+.margin-bottom {
+  content: "";
+  display: table;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.box {
+  width: 970px;
+  background-color: #fff;
+  padding: 0 15px;
+  margin: 0 auto auto;
+}
+
+.box:before {
+  content: "";
+  display: table;
+}
+
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="radio"],
+input[type="checkbox"],
+label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.search {
+  float: left;
+}
+
+.search .searchForm {
+  border-bottom: 1px solid;
+  width: auto;
+}
+
+.search .searchForm ul li {
+  display: inline-block;
+  height: 50px;
+}
+
+.search .searchForm ul li select {
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+}
+
+.search .searchForm ul li select option {
+  font-size: 30px;
+}
+
+.search .searchResult {
+  padding: 0 20px;
+}
+
+.search .searchResult .item {
+  height: 80px;
+  border-bottom: 1px solid;
+}
+
+.search .searchResult .item p {
+  height: 40px;
+  line-height: 40px;
+}
+
+.search .searchResult .item p:first-child {
+  font-size: 20px;
+}
+
+.search .searchResult .item p:last-child {
+  float: right;
+}
+
+.search .searchResult .item ul {
+  margin-top: 10px;
+  float: left;
+}
+
+.search .searchResult .item ul li {
+  display: inline-block;
+}
+
+.search .searchResult .item ul li:first-child {
+  background-color: #f7f7f9;
+}
 .clear-float {
   content: "";
   display: table;

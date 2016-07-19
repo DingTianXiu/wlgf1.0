@@ -2,8 +2,8 @@
  * Created by dtx on 16/7/7.
  */
 
-angular.module("app.public.login.controller",[])
-    .controller("loginCtrl",["$rootScope","$scope","USER","$state",function ($rootScope,$scope,USER,$state) {
+angular.module("app.public.login.controller",["app.public.login.server"])
+    .controller("loginCtrl",["$rootScope","$scope","USER","$state","login",function ($rootScope,$scope,USER,$state,login) {
 
         /*center_home高度随浏览器clientHeight高度改变而改变*/
         var height = document.body.clientHeight;
@@ -23,6 +23,11 @@ angular.module("app.public.login.controller",[])
         $rootScope.isLogin =false;
         $rootScope.USER = USER;
         $scope.goLogin = function () {
+                //
+                // login.goLogin()
+                //     .then(function (data) {
+                //         console.log(data);
+                //     });
                 if($scope.loginForm.$valid && $scope.loginForm.$dirty){
                     if($scope.auth.userName==USER.userName&&$scope.auth.password==USER.passWord){
                         $state.go('home');
@@ -51,4 +56,6 @@ angular.module("app.public.login.controller",[])
                 $scope.reset = true;
             }
         };
+
+
     }]);
