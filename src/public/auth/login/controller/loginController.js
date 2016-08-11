@@ -13,34 +13,61 @@ angular.module("app.public.login.controller",["app.public.login.server"])
             document.getElementsByClassName("login")[0].style.height = (height-80)+"px";
         };
 
-        /*表单验证*/
-        $scope.select = false;
-        $scope.formClick = function () {
-            $scope.select = true;
+
+
+        /*用户认证--验证码验证*/
+        $scope.code = "";
+        $scope.codeWrong = false;
+        var authWatch = $scope.$watch(function () {
+                    return $scope.code
+                },function(){
+                if($scope.code.length==4){
+                    login.checkAuth()
+                        .then(function (isTrue) {
+                            $scope.isTrue = isTrue;
+                            if(!isTrue){
+                                $scope.codeWrong = true;
+                            }else{
+                                authWatch();
+                            }
+                        })
+                }else if($scope.code.length>4){
+                    $scope.codeWrong = true;
+                }else{
+                    $scope.codeWrong = false;
+                }
+            });
+        $scope.codeClick = function () {
+                $scope.code = "";
+                $scope.codeWrong = false;
         };
 
-        /*test用户认证*/
-        $rootScope.isLogin =false;
-        $rootScope.USER = USER;
+        /*用户认证--登录认证*/
+        $scope.userWrong = false;
+        $scope.passwordWrong = false;
         $scope.goLogin = function () {
-                //
-                // login.goLogin()
-                //     .then(function (data) {
-                //         console.log(data);
-                //     });
-                if($scope.loginForm.$valid && $scope.loginForm.$dirty){
-                    if($scope.auth.userName==USER.userName&&$scope.auth.password==USER.passWord){
-                        $state.go('home');
-                        $rootScope.isLogin = true;
-                        console.dir($scope.loginForm.$valid);
-                    }else{
-                        alert("请输入正确用户名及密码");
-                    }
-                }else{
-                    alert("请输入用户名及密码");
-                }
-            };
-
+            if($scope.isTrue){
+                login.goLogin()
+                    .then(function (data) {
+                        if(data){
+                            $state.go(home);
+                        }else{
+                            //验证失败
+                            $scope.userWrong = true;
+                            $scope.passwordWrong = true;
+                        }
+                    });
+            }else{
+                alert("请输入正确验证码");
+            }
+        };
+        $scope.userClick = function () {
+            $scope.userWrong = false;
+        };
+        $scope.passwordClick = function () {
+            $scope.passwordWrong = false;
+            $scope.auth.passWord = "";
+        };
 
         /*忘记密码*/
         $scope.resetPasswordBtn = function () {
